@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login App</title>
+</head>
+
+<body>
+    <script src="./node_modules/pouchdb/dist/pouchdb.js"></script>
+    <div id="login-container">
+        <label for="username">Username:</label>
+        <input type="text" id="username" />
+        <label for="password">Password:</label>
+        <input type="password" id="password" />
+        <button onclick="login()">Login</button>
+        <p id="error-message"></p>
+    </div>
+    <!-- <script src="//cdn.jsdelivr.net/npm/pouchdb@8.0.1/dist/pouchdb.min.js"></script> -->
+    <script src="renderer.js"></script>
+</body>
+
+</html>
